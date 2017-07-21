@@ -1,0 +1,29 @@
+<html>
+<body>
+
+<script type="text/javascript">
+	
+function ship(name, attack, defence, hull, shields, actions, upgrades){
+	this.name = name;
+	this.attack = attack;
+	this.defence = defence;
+	this.hull = hull;
+	this.shields = shields;
+	this.actions = actions;
+	this.upgrades = upgrades;
+}
+
+function pilot(name, skill){
+	this.name = name;
+	this.skill = skill;
+}
+
+var TieFighter = new ship("Tie Fighter", 2, 3, 3, 0, ["focus", "barrel roll","evade"], [""]);
+
+var Xwing = new ship("X-wing", 3, 2, 3, 2, ["target lock","focus"],["torpedo","astromech"])
+
+
+</script>
+
+</body>
+</html>
