@@ -1,0 +1,59 @@
+<html>
+<body>
+<script src="Initialize.js"></script>
+
+
+<script src="Dice.js"></script>
+<script src="Modifiers.js"></script>
+
+<script src="Upgrades.js"></script>
+<script src="Ships.js"></script>
+<script src="Pilots.js"></script>
+<script src="Sqauds.js"></script>
+<script src="Player.js"></script>
+<script src="Tools.js"></script>
+
+<script src="GameState.js"></script>
+
+
+<hr>
+<button onclick="createPilot('pltBiggsDarklighter');">Create Biggs Darklighter</button>
+<button onclick="createPilot('pltHowlrunner');">Create Howlrunner</button>
+<hr>
+<button onclick="createShip('shpXwing');">Create X-wing</button>
+<button onclick="createShip('shpTieFighter');">Create Tie Fighter</button>
+<hr>
+Attack:
+<button onclick="attack();">Attack!</button>
+<hr>
+Modify Dice:
+<button onclick="modDice('focus');"">Focus</button>
+<button onclick="modDice('targetlock');">Target Lock</button>
+<button onclick="modDice('special');">Special</button>
+<hr>
+
+
+<table><tr><td>
+Import Squad1:
+<textarea id="XWS1"></textarea>
+</td><td style="visibility: hidden">
+Import Pilots:
+<textarea id="Pilots"></textarea>
+</td><td style="visibility: hidden">
+Import Upgrades:
+<textarea id="Upgrades"></textarea>
+</td></tr>
+<tr><td colspan="3"><button onclick="ImportXWS('1');">Import XWS - Player1</button>
+</td></tr>
+</table>
+
+<table><tr><td>
+Import Squad2:
+<textarea id="XWS2"></textarea>
+</td></tr>
+<tr><td colspan="3"><button onclick="ImportXWS('2');">Import XWS - Player2</button>
+</td></tr>
+</table>
+
+</body>
+</html>

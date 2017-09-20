@@ -1,0 +1,46 @@
+Veteran Pilot?
+Upgrades to ships?
+effects?
+- multiple groups?
+- by phase?
+- attached to what?  ship? pilot? player?
+Upgrades
+- ex: Engine Upgrade.  Make new object?  How to function it? 
+- attach to what?
+- check for effect when?
+- bank of current effects?
+- categorize?
+- object > method > result.
+
+So what are all the possible effects?
+- adding an action to action bar
+- modifying dice
+-- adding a result
+-- adding a rolled result
+-- cancelling dice (attack and defence)
+-- rerolling results
+-- changing result(s)
+- assign tokens
+- give actions (may)
+- assign condition card
+- activate condition card
+- using a token for an effect
+- forcing an action (must)
+- shooting again (immediate, phase)
+- firing arc
+- secondary weapon
+- range of friendly
+- range of enemy
+- range of defender
+- alternate firing arc
+- special firing arc
+- 180 firing arc
+- ordinance effects
+- change pilot stats
+- discard damage
+- target is locked
+- defender is locked
+- attacker is locked
+- mobile firing arc
+
+Player > Squad > Pilot > Ship - Upgrade

@@ -1,0 +1,29 @@
+<html>
+<body>
+<script type="text/javascript">
+function car(name, speed, options){
+  this.name = name;
+  this.speed = speed;
+  this.options = options;
+}
+
+var carMustang = new car("Mustang", 250, ["Cruise Control","Air Conditioning", "ABS"]);
+
+var cars = []
+function car(name, speed, options){
+  this.name = name;
+  this.speed = speed;
+  this.options = options;
+}
+
+function createCar(name, speed, options) {
+    cars.push(new car(name, speed, options))
+    alert(cars[0].name);
+}
+
+</script>
+
+<button onclick="createCar(this.innerHTML, 250, ['Cruise Control','Air Conditioning', 'ABS'])">Mustang</button>
+
+</body>
+</html>
